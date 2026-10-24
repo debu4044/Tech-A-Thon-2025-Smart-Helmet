@@ -11,19 +11,19 @@ import smbus2 as smbus
 import math
 from twilio.rest import Client
 
-
+####
 # Firebase Configuration
-cred = credentials.Certificate(r"/home/pranav/techathoncircuitpaglu-firebase-adminsdk-fbsvc-9f26469ff2.json")
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://techathoncircuitpaglu-default-rtdb.asia-southeast1.firebasedatabase.app'
-})
+#cred = credentials.Certificate(r"/own.json")
+#firebase_admin.initialize_app(cred, {
+    'databaseURL': 'ownlink'
+#})
+####
 # Twilio Configuration
-TWILIO_ACCOUNT_SID = 'ACc0fda36782c5837cae479ea9700d65e2'
-TWILIO_AUTH_TOKEN = 'eebdfcfc032130d673190bad1fc335d8'
-TWILIO_PHONE_NUMBER = '+19045290595'
-RECIPIENT_PHONE_NUMBER = '+919324589670'  # Replace with the recipient's phone number
-GOOGLE_MAPS_API_KEY = 'AIzaSyBlNLSwItNDfnUBb4D0KotOrcmy0KiyIeE'
-
+TWILIO_ACCOUNT_SID = #use self
+TWILIO_AUTH_TOKEN = #use self
+TWILIO_PHONE_NUMBER = #put own
+RECIPIENT_PHONE_NUMBER = # Replace with the recipient's phone number
+GOOGLE_MAPS_API_KEY = #use self
 # GPIO Pin Configuration
 BUZZER_PIN = 17
 LED_PIN = 18
